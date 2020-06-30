@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import Destination from '@/components/Destination'
-import FreeTravel from '@/components/FreeTravel'
+import HelloWorld from '@/views/HelloWorld'
+import Destination from '@/views/Destination'
+import FreeTravel from '@/views/FreeTravel'
 Vue.use(Router)
 
 export default new Router({
