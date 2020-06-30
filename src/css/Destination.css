@@ -30,15 +30,19 @@ div.Destination{
 div.place-focus{
   width: 100%;
   min-width: 1260px;
-  height: 550px;
+  height: 28.125rem;
   background: url('https://b1-q.mafengwo.net/s15/M00/0F/5F/CoUBGV28HDuALpzxABR490kDN0M39.jpeg');
   background-repeat: no-repeat;
-  background-size: 100% 550px;
+  background-size: 100%;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   padding-top: 100px;
+  z-index: -100;
+}
+div.place-focus a.show-info-top{
+
 }
 div.place-focus a.show-info-top{
 
@@ -52,9 +56,9 @@ div.show-info-top{
 }
 	div.info-left{
     width: 360px;
-		background-color: rgba(0,0,0,.4);
-		padding: 20px;
-		display: flex;
+	background-color: rgba(0,0,0,.4);
+	padding: 20px;
+	display: flex;
     flex-direction: column;
     justify-content: space-around;
     border-radius: 4px;
@@ -127,6 +131,7 @@ div.show-info-top{
     text-align: left;
     padding-right: 30px;
     border-right: 7px solid white;
+    overflow: initial;
   }
   div.info-right a{
     color: white;
@@ -136,6 +141,7 @@ div.show-info-top{
   }
   div.info-right h2{
     font: 30px/1.3 "微软雅黑";
+    margin: 10px 0;
   }
   div.info-right p{
     font: 16px/1.8 '微软雅黑';
@@ -146,7 +152,22 @@ div.show-info-top{
     text-decoration: underline;
     font: 18px/1.8 '微软雅黑';
     margin-top: 10px;
+    display: inline-block;
+  }
+  div.info-right a.readAll:hover{
+    color: #ff9d00;
 	}
 div.place-focus a.show-info-bottom{
-
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
 }
+  div.show-info-bottom{
+
+  }
+  div.show-info-bottom i{
+    color: white;
+    font: 20px/1 '微软雅黑';
+  }

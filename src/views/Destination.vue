@@ -30,7 +30,7 @@
       </a>
 	  <a href="#" class="show-info-bottom">
 		  <div class="show-info-bottom">
-
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </div>
 	  </a>
 	  <div class="">
