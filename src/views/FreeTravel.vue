@@ -1,6 +1,6 @@
 <template>
   <div class="FreeTravel">
-    www
+    www是是是
   </div>
 </template>
 
